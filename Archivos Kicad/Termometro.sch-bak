@@ -98,8 +98,6 @@ Wire Bus Line
 Entry Wire Line
 	2200 3050 2300 3150
 Entry Wire Line
-	2200 3150 2300 3250
-Entry Wire Line
 	2200 3250 2300 3350
 Entry Wire Line
 	2200 3350 2300 3450
@@ -109,32 +107,26 @@ Entry Wire Line
 	2200 3550 2300 3650
 Entry Wire Line
 	2200 3650 2300 3750
-Text Label 3775 3150 0    50   ~ 0
-CC3
-Text Label 2350 3250 0    50   ~ 0
-g
-Text Label 2350 3350 0    50   ~ 0
-c
-Text Label 2350 3450 0    50   ~ 0
-DPX
-Text Label 2350 3550 0    50   ~ 0
-d
-Text Label 2350 3650 0    50   ~ 0
-e
 Entry Wire Line
 	2200 3750 2300 3850
+Text Label 2350 3350 0    50   ~ 0
+g
+Text Label 2350 3450 0    50   ~ 0
+c
+Text Label 2350 3650 0    50   ~ 0
+d
+Text Label 2350 3750 0    50   ~ 0
+e
 Entry Wire Line
 	2200 3850 2300 3950
 Entry Wire Line
 	2200 3950 2300 4050
-Text Label 2350 3750 0    50   ~ 0
-f
+Entry Wire Line
+	2200 4050 2300 4150
 Text Label 2350 3850 0    50   ~ 0
-a
+f
 Text Label 2350 3950 0    50   ~ 0
-CC1
-Text Label 2350 4050 0    50   ~ 0
-CC2
+a
 $Comp
 L Device:R R1
 U 1 1 5D22EF7C
@@ -286,16 +278,6 @@ f
 Text Label 4950 3550 0    50   ~ 0
 g
 Wire Wire Line
-	2700 3650 2300 3650
-Wire Wire Line
-	2700 3550 2300 3550
-Wire Wire Line
-	2300 3450 2700 3450
-Wire Wire Line
-	2700 3350 2300 3350
-Wire Wire Line
-	2300 3250 2700 3250
-Wire Wire Line
 	3300 4950 3300 4700
 $Comp
 L power:+5V #PWR0104
@@ -310,16 +292,6 @@ F 3 "" H 3400 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3700 3750 3750 3750
-Wire Wire Line
-	2700 3150 2300 3150
-Wire Wire Line
-	2300 4050 2700 4050
-Wire Wire Line
-	2300 3950 2700 3950
-Wire Wire Line
-	2300 3850 2700 3850
-Wire Wire Line
-	2700 3750 2300 3750
 NoConn ~ 2700 4250
 NoConn ~ 2700 4350
 NoConn ~ 3700 4350
@@ -643,8 +615,6 @@ F 3 "~" H 4050 6100 50  0001 C CNN
 	1    4050 6100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3700 3150 3780 3150
 $Comp
 L Device:R R3
 U 1 1 5D22AF4D
@@ -656,14 +626,6 @@ F 3 "~" H 7750 3350 50  0001 C CNN
 	1    7750 3350
 	0    1    1    0   
 $EndComp
-Entry Wire Line
-	3780 3150 3880 3050
-Wire Bus Line
-	2200 2430 3880 2430
-Wire Bus Line
-	3880 2430 3880 3050
-Text Label 2350 3150 0    50   ~ 0
-CC4
 Text Label 2425 3050 2    50   ~ 0
 b
 $Comp
@@ -681,11 +643,45 @@ Entry Wire Line
 	2200 2950 2300 3050
 Wire Wire Line
 	2700 3050 2300 3050
-NoConn ~ 2700 4150
+Text Label 2350 3150 0    50   ~ 0
+CC4
+Wire Wire Line
+	2700 3850 2300 3850
+Wire Wire Line
+	2300 3950 2700 3950
+Wire Wire Line
+	2300 4050 2700 4050
+Wire Wire Line
+	2700 3150 2300 3150
+Wire Wire Line
+	2300 3350 2700 3350
+Wire Wire Line
+	2700 3450 2300 3450
+Wire Wire Line
+	2300 3550 2700 3550
+Wire Wire Line
+	2700 3650 2300 3650
+Wire Wire Line
+	2700 3750 2300 3750
+Text Label 2300 4150 0    50   ~ 0
+CC2
+Text Label 2350 4050 0    50   ~ 0
+CC1
+Text Label 2350 3550 0    50   ~ 0
+DPX
+Wire Wire Line
+	2300 4150 2700 4150
+NoConn ~ 3700 3150
+Entry Wire Line
+	2200 3150 2300 3250
+Wire Wire Line
+	2700 3250 2300 3250
 Wire Bus Line
 	8500 3450 8500 4250
 Wire Bus Line
 	2200 2430 2200 5200
 Wire Bus Line
 	4750 2750 4750 5200
+Text Label 2300 3250 0    50   ~ 0
+CC3
 $EndSCHEMATC

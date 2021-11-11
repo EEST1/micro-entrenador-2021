@@ -22,7 +22,7 @@ CC3
 Text Label 8250 3650 0    50   ~ 0
 CC4
 $Comp
-L Device:R R5
+L Termometro-rescue:R-Device R5
 U 1 1 5D22AFBA
 P 8100 3450
 F 0 "R5" V 8100 3450 50  0000 C CNN
@@ -33,7 +33,7 @@ F 3 "~" H 8100 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R4
+L Termometro-rescue:R-Device R4
 U 1 1 5D22B012
 P 7750 3550
 F 0 "R4" V 7750 3550 50  0000 C CNN
@@ -44,7 +44,7 @@ F 3 "~" H 7750 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R6
+L Termometro-rescue:R-Device R6
 U 1 1 5D22B057
 P 8100 3650
 F 0 "R6" V 8100 3650 50  0000 C CNN
@@ -81,7 +81,7 @@ Wire Wire Line
 Wire Bus Line
 	8500 4250 8450 4300
 $Comp
-L Display_Character:CA56-12CGKWA U2
+L Termometro-rescue:CA56-12CGKWA-Display_Character U2
 U 1 1 5D2241E2
 P 6300 3250
 F 0 "U2" H 6300 3917 50  0000 C CNN
@@ -128,7 +128,7 @@ f
 Text Label 2350 3950 0    50   ~ 0
 a
 $Comp
-L Device:R R1
+L Termometro-rescue:R-Device R1
 U 1 1 5D22EF7C
 P 4050 3250
 F 0 "R1" V 3843 3250 50  0000 C CNN
@@ -141,7 +141,7 @@ $EndComp
 Wire Wire Line
 	3750 3250 3900 3250
 $Comp
-L power:GND #PWR0102
+L Termometro-rescue:GND-power #PWR0102
 U 1 1 5D2343A5
 P 3300 4950
 F 0 "#PWR0102" H 3300 4700 50  0001 C CNN
@@ -152,7 +152,7 @@ F 3 "" H 3300 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0107
+L Termometro-rescue:+5V-power #PWR0107
 U 1 1 5D236852
 P 3950 4300
 F 0 "#PWR0107" H 3950 4150 50  0001 C CNN
@@ -166,11 +166,10 @@ Wire Wire Line
 	3950 4200 3950 4300
 Wire Wire Line
 	3950 4300 4050 4300
-Connection ~ 3950 4300
 Wire Wire Line
 	3750 3250 3750 3750
 $Comp
-L power:GND #PWR0106
+L Termometro-rescue:GND-power #PWR0106
 U 1 1 5D23682F
 P 4350 4750
 F 0 "#PWR0106" H 4350 4500 50  0001 C CNN
@@ -186,7 +185,7 @@ Wire Wire Line
 	4350 4300 4350 3850
 Connection ~ 4350 4300
 $Comp
-L Device:R R7
+L Termometro-rescue:R-Device R7
 U 1 1 5D2366ED
 P 4200 4300
 F 0 "R7" V 3993 4300 50  0000 C CNN
@@ -205,7 +204,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 3650 4350 3650
 $Comp
-L power:GND #PWR0101
+L Termometro-rescue:GND-power #PWR0101
 U 1 1 5D22F037
 P 4550 4050
 F 0 "#PWR0101" H 4550 3800 50  0001 C CNN
@@ -217,7 +216,7 @@ F 3 "" H 4550 4050 50  0001 C CNN
 $EndComp
 Connection ~ 4550 3650
 $Comp
-L Device:R R2
+L Termometro-rescue:R-Device R2
 U 1 1 5D22EFCE
 P 4550 3800
 F 0 "R2" H 4480 3754 50  0000 R CNN
@@ -280,7 +279,7 @@ g
 Wire Wire Line
 	3300 4950 3300 4700
 $Comp
-L power:+5V #PWR0104
+L Termometro-rescue:+5V-power #PWR0104
 U 1 1 5D236589
 P 3400 2650
 F 0 "#PWR0104" H 3400 2500 50  0001 C CNN
@@ -309,7 +308,7 @@ Wire Bus Line
 Text Label 4950 3650 0    50   ~ 0
 DPX
 $Comp
-L Diode:1N4148 D1
+L Termometro-rescue:1N4148-Diode D1
 U 1 1 5D236798
 P 4350 4600
 F 0 "D1" V 4396 4521 50  0000 R CNN
@@ -321,7 +320,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4350 4600 50  
 $EndComp
 Connection ~ 3750 3750
 $Comp
-L Amplifier_Operational:LM358 U1
+L Termometro-rescue:LM358-Amplifier_Operational U1
 U 1 1 5D22A72A
 P 4050 3750
 F 0 "U1" H 4050 3383 50  0000 C CNN
@@ -354,7 +353,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 5350 5750 5300
 $Comp
-L power:GND #PWR0112
+L Termometro-rescue:GND-power #PWR0112
 U 1 1 5D23D4A7
 P 5750 5650
 F 0 "#PWR0112" H 5750 5400 50  0001 C CNN
@@ -365,7 +364,7 @@ F 3 "" H 5750 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
+L Termometro-rescue:R-Device R9
 U 1 1 5D23C8DF
 P 5750 5500
 F 0 "R9" V 5750 5500 50  0000 C CNN
@@ -376,7 +375,7 @@ F 3 "~" H 5750 5500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R12
+L Termometro-rescue:R-Device R12
 U 1 1 5D23C8A1
 P 7550 5150
 F 0 "R12" V 7550 5150 50  0000 C CNN
@@ -387,7 +386,7 @@ F 3 "~" H 7550 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R11
+L Termometro-rescue:R-Device R11
 U 1 1 5D23C818
 P 6950 5150
 F 0 "R11" V 6950 5150 50  0000 C CNN
@@ -398,7 +397,7 @@ F 3 "~" H 6950 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R10
+L Termometro-rescue:R-Device R10
 U 1 1 5D23C7D8
 P 6350 5150
 F 0 "R10" V 6350 5150 50  0000 C CNN
@@ -409,7 +408,7 @@ F 3 "~" H 6350 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R8
+L Termometro-rescue:R-Device R8
 U 1 1 5D23C6F7
 P 5750 5150
 F 0 "R8" V 5750 5150 50  0000 C CNN
@@ -420,7 +419,7 @@ F 3 "~" H 5750 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR0111
+L Termometro-rescue:+5V-power #PWR0111
 U 1 1 5D23C672
 P 7550 4600
 F 0 "#PWR0111" H 7550 4450 50  0001 C CNN
@@ -431,7 +430,7 @@ F 3 "" H 7550 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0110
+L Termometro-rescue:+5V-power #PWR0110
 U 1 1 5D23C647
 P 6950 4600
 F 0 "#PWR0110" H 6950 4450 50  0001 C CNN
@@ -442,7 +441,7 @@ F 3 "" H 6950 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0109
+L Termometro-rescue:+5V-power #PWR0109
 U 1 1 5D23C61C
 P 6350 4600
 F 0 "#PWR0109" H 6350 4450 50  0001 C CNN
@@ -453,7 +452,7 @@ F 3 "" H 6350 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0108
+L Termometro-rescue:+5V-power #PWR0108
 U 1 1 5D23C5F1
 P 5750 4600
 F 0 "#PWR0108" H 5750 4450 50  0001 C CNN
@@ -464,7 +463,7 @@ F 3 "" H 5750 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW4
+L Termometro-rescue:SW_Push-Switch SW4
 U 1 1 5D23C5B3
 P 7550 4800
 F 0 "SW4" V 7504 4948 50  0000 L CNN
@@ -475,7 +474,7 @@ F 3 "" H 7550 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_Push SW3
+L Termometro-rescue:SW_Push-Switch SW3
 U 1 1 5D23C573
 P 6950 4800
 F 0 "SW3" V 6904 4948 50  0000 L CNN
@@ -486,7 +485,7 @@ F 3 "" H 6950 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_Push SW2
+L Termometro-rescue:SW_Push-Switch SW2
 U 1 1 5D23C533
 P 6350 4800
 F 0 "SW2" V 6304 4948 50  0000 L CNN
@@ -497,7 +496,7 @@ F 3 "" H 6350 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_Push SW1
+L Termometro-rescue:SW_Push-Switch SW1
 U 1 1 5D23C3F9
 P 5750 4800
 F 0 "SW1" V 5704 4948 50  0000 L CNN
@@ -508,7 +507,7 @@ F 3 "" H 5750 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0105
+L Termometro-rescue:+5V-power #PWR0105
 U 1 1 5D2365AF
 P 5200 5050
 F 0 "#PWR0105" H 5200 4900 50  0001 C CNN
@@ -519,7 +518,7 @@ F 3 "" H 5200 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0103
+L Termometro-rescue:GND-power #PWR0103
 U 1 1 5D235035
 P 5200 5650
 F 0 "#PWR0103" H 5200 5400 50  0001 C CNN
@@ -530,7 +529,7 @@ F 3 "" H 5200 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 U1
+L Termometro-rescue:LM358-Amplifier_Operational U1
 U 3 1 5D234FC0
 P 5300 5350
 F 0 "U1" H 5258 5396 50  0000 L CNN
@@ -541,7 +540,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5300 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0101
+L Termometro-rescue:PWR_FLAG-power #FLG0101
 U 1 1 613D8A7F
 P 2550 5850
 F 0 "#FLG0101" H 2550 5925 50  0001 C CNN
@@ -552,7 +551,7 @@ F 3 "~" H 2550 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L Termometro-rescue:GND-power #PWR0113
 U 1 1 613D8A85
 P 2550 5950
 F 0 "#PWR0113" H 2550 5700 50  0001 C CNN
@@ -572,7 +571,7 @@ Connection ~ 3300 4700
 Wire Wire Line
 	3300 4700 3300 4650
 $Comp
-L Mechanical:MountingHole H3
+L Termometro-rescue:MountingHole-Mechanical H3
 U 1 1 61412614
 P 4050 5800
 F 0 "H3" H 4150 5846 50  0000 L CNN
@@ -583,7 +582,7 @@ F 3 "~" H 4050 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L Termometro-rescue:MountingHole-Mechanical H1
 U 1 1 61409849
 P 3150 5800
 F 0 "H1" H 3250 5846 50  0000 L CNN
@@ -594,7 +593,7 @@ F 3 "~" H 3150 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L Termometro-rescue:MountingHole-Mechanical H2
 U 1 1 6142C6E0
 P 3150 6100
 F 0 "H2" H 3250 6146 50  0000 L CNN
@@ -605,7 +604,7 @@ F 3 "~" H 3150 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L Termometro-rescue:MountingHole-Mechanical H4
 U 1 1 6142F660
 P 4050 6100
 F 0 "H4" H 4150 6146 50  0000 L CNN
@@ -616,7 +615,7 @@ F 3 "~" H 4050 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Termometro-rescue:R-Device R3
 U 1 1 5D22AF4D
 P 7750 3350
 F 0 "R3" V 7750 3350 50  0000 C CNN
@@ -676,12 +675,12 @@ Entry Wire Line
 	2200 3150 2300 3250
 Wire Wire Line
 	2700 3250 2300 3250
+Text Label 2300 3250 0    50   ~ 0
+CC3
 Wire Bus Line
 	8500 3450 8500 4250
 Wire Bus Line
 	2200 2430 2200 5200
 Wire Bus Line
 	4750 2750 4750 5200
-Text Label 2300 3250 0    50   ~ 0
-CC3
 $EndSCHEMATC
